@@ -9,7 +9,7 @@ const { initializeApp, applicationDefault, cert } = require('firebase-admin/app'
 
 var admin = require("firebase-admin");
 
-var serviceAccount = require("risekathon-app-firebase-adminsdk-qxt4j-2ae64c41be.json");
+var serviceAccount = require("./risekathon-app-firebase-adminsdk-qxt4j-2ae64c41be.json");
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount)
