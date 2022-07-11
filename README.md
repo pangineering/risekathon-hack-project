@@ -1,1 +1,0 @@
-# risekathon-hack-project
