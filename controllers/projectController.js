@@ -1,7 +1,7 @@
 "use strict";
 
 const { firestore } = require("firebase-admin");
-const {app,db} = require("../db");
+const {app,db} = require('../db');
 //const { getFirestore, Timestamp, FieldValue } = require('firebase-admin/firestore');
 
 

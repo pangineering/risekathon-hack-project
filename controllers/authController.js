@@ -4,7 +4,7 @@
 //     signInWithEmailAndPassword,
 //    }
 
-const { app, admin } = require("../db");
+
 const firebase = require("firebase/app");
 const { getAuth } = require("firebase-admin/auth");
 //const firebaseAdmin = require("firebase-admin");

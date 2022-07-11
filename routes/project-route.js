@@ -3,8 +3,7 @@ const cors = require('cors')
 
 const {
   getAllProject,
-  getProject,
-} = require("../controllers/projectController");
+} = require('../controllers/projectController');
 
 const { protect } = require("../middleware/authMiddleware");
 
