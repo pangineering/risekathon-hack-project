@@ -1,15 +1,15 @@
-import React, {useEffect} from "react";
-import { useSelector, useDispatch } from 'react-redux'
+import React from "react";
+import { useSelector } from 'react-redux'
 
 import { Navbar, Nav, Container } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import {getAllUsers, reset_user} from '../features/users/userSlice'
 
 function HeaderNav() {
   const { user } = useSelector((state) => state.auth);
 
+  console.log("user: ",user)
 
-  console.log(user)
+
 
 
   return (
@@ -23,6 +23,7 @@ function HeaderNav() {
             <Link to="/companies">Company</Link>
             
           </Nav>
+        
         </Container>
       ) : (
         <></>
