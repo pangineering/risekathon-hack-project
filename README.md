@@ -4,9 +4,7 @@ description: Project Document
 
 # Project Document
 
-## speech-recognition-socketio
-
-## Speech Recognition and Socket.io
+## Speech-recognition-socketio
 
 [![Made by - Pangineering](https://img.shields.io/badge/Made\_by-Pangineering-2ea44f)](https://github.com/pangineering) ![Status - In Progress](https://img.shields.io/badge/Status-Complete-FFCD22)
 
